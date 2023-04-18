@@ -1,0 +1,11 @@
+# This is the server network config file
+network:
+  ethernets:
+    eth0:
+      dhcp4: no
+      addresses:
+        - 192.168.254.3/24
+      gateway4: 192.168.254.1
+      nameservers:
+          addresses: [8.8.8.8]
+  version: 2
