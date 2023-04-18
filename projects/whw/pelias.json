@@ -49,6 +49,9 @@
         "filename": "australia-latest.osm.pbf"
       }]
     },
+    "openaddresses": {
+      "datapath": "/data/openaddresses"
+    },
     "polyline": {
       "datapath": "/data/polylines",
       "files": [ "extract.0sv" ]
