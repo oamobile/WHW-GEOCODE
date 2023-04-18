@@ -52,7 +52,7 @@
     "openaddresses": {
       "datapath": "/data/openaddresses",
       "files": [
-        ""
+        "us/fl/miami2"
       ]
     },
     "polyline": {
