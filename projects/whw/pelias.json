@@ -64,13 +64,6 @@
     "whosonfirst": {
       "datapath": "/data/whosonfirst",
       "importPostalcodes": true
-    },
-    "interpolation": {
-      "download": {
-        "tiger": {
-          "datapath": "/data/tiger"
-        }
-      }
     }
   }
 }
