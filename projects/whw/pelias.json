@@ -49,12 +49,6 @@
         "filename": "australia-latest.osm.pbf"
       }]
     },
-    "openaddresses": {
-      "datapath": "/data/openaddresses",
-      "files": [
-        "au/qld/statewide.csv"
-      ]
-    },
     "polyline": {
       "datapath": "/data/polylines",
       "files": [ "extract.0sv" ]
