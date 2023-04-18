@@ -14,7 +14,7 @@
       "index": {
         "refresh_interval": "10s",
         "number_of_replicas": "0",
-        "number_of_shards": "3"
+        "number_of_shards": "8"
       }
     }
   },
@@ -37,22 +37,24 @@
     },
     "geonames": {
       "datapath": "/data/geonames",
-      "countryCode": "AU"
+      "countryCode": "ALL"
     },
     "openstreetmap": {
       "download": [
-        { "sourceURL": "http://download.geofabrik.de/australia-oceania/australia-latest.osm.pbf" }
+        { "sourceURL": "https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf" }
       ],
       "leveldbpath": "/tmp",
       "datapath": "/data/openstreetmap",
-      "import": [{
-        "filename": "australia-latest.osm.pbf"
-      }]
+      "import": [
+        {
+          "filename": "planet-latest.osm.pbf"
+        }
+      ]
     },
     "openaddresses": {
       "datapath": "/data/openaddresses",
       "files": [
-        "us/fl/miami2"
+        "not-using"
       ]
     },
     "polyline": {
@@ -61,19 +63,12 @@
     },
     "whosonfirst": {
       "datapath": "/data/whosonfirst",
-      "countryCode": "AU",
-      "importPostalcodes": true,
-      "importPlace": [
-        "85632793"
-      ]
+      "importPostalcodes": true
     },
     "interpolation": {
       "download": {
         "tiger": {
-          "datapath": "/data/tiger",
-          "states": [
-            { "state_code": 53, "county_code": 11, "name": "Clark County, WA" }
-          ]
+          "datapath": "/data/tiger"
         }
       }
     }
