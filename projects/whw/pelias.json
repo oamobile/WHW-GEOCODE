@@ -1,7 +1,7 @@
 {
   "logger": {
     "level": "info",
-    "timestamp": false
+    "timestamp": true
   },
   "esclient": {
     "apiVersion": "7.5",
@@ -54,12 +54,8 @@
     "openaddresses": {
       "datapath": "/data/openaddresses",
       "files": [
-        "not-using"
+        "not-using_keep-this-here-though"
       ]
-    },
-    "polyline": {
-      "datapath": "/data/polylines",
-      "files": [ "extract.0sv" ]
     },
     "whosonfirst": {
       "datapath": "/data/whosonfirst",
